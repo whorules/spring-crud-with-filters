@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - changeSet:
+      runAlways: false
+      id: 20210305_01
+      author: Alexey Korovko
+      changes:
+        - sqlFile:
+            path: sql/001-create-car.sql
+            enchoding: utf8
+            relativeToChangelogFile: true
+  - changeSet:
+      runAlways: false
+      id: 20210306_02
+      author: Alexey Korovko
+      changes:
+        - sqlFile:
+            path: sql/002-add-test-data.sql
+            enchoding: utf8
+            relativeToChangelogFile: true
