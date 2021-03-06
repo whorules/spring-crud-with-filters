@@ -1,4 +1,4 @@
-# Medical Clinic Backend
+# Spring CRUD
 
 > Spring application with opportunity to make CRUD (Create, Read, Update, Delete) operation and filter results using Java Criteria API
 
