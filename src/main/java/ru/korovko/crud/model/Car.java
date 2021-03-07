@@ -25,7 +25,6 @@ public class Car {
     @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
     @Type(type = "pg-uuid")
     private UUID id;
-    private String manufacturer;
     private String model;
     private LocalDate manufactureDate;
     private Integer maxSpeed;

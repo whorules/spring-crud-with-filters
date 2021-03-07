@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 public class CarSearchRequest {
 
-    @ApiModelProperty(example = "BMW")
+    @ApiModelProperty(example = "[BMW, AUDI]")
     private List<String> models;
     @ApiModelProperty(example = "BLUE")
     private CarColor color;
@@ -20,7 +20,7 @@ public class CarSearchRequest {
     private LocalDate startManufactureDate;
     @ApiModelProperty(example = "2015-12-31")
     private LocalDate endManufactureDate;
-    @ApiModelProperty(example = "1300")
+    @ApiModelProperty(example = "2000")
     private Integer maxWeight;
     @ApiModelProperty(example = "300")
     private Integer maxSpeed;
