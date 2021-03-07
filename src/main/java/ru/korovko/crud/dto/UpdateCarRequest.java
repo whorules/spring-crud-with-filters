@@ -2,9 +2,11 @@ package ru.korovko.crud.dto;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import lombok.experimental.Accessors;
 import ru.korovko.crud.model.CarColor;
 
 @Data
+@Accessors(chain = true)
 public class UpdateCarRequest {
 
     @ApiModelProperty(example = "AUDI")

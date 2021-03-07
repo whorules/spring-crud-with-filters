@@ -3,6 +3,7 @@ package ru.korovko.crud.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.Type;
 
@@ -17,6 +18,7 @@ import java.util.UUID;
 @Entity
 @NoArgsConstructor
 @Data
+@Accessors(chain = true)
 @AllArgsConstructor
 public class Car {
 

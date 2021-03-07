@@ -2,11 +2,13 @@ package ru.korovko.crud.dto;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import lombok.experimental.Accessors;
 import ru.korovko.crud.model.CarColor;
 
 import java.time.LocalDate;
 
 @Data
+@Accessors(chain = true)
 public class CreateCarRequest {
 
     @ApiModelProperty(example = "AUDI")
